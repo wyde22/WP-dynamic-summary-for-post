@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wrap-summary{
+	background-color: #e2e2e2;
+	padding:15px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	position:fixed;
+}
+
+.wrap-summary p:first-child{
+	text-align: center;
+	background-color:#000;
+	color:#fff;
+	font-weight:bold;
+	width:100%;
+	margin:0 auto;
+	white-space: nowrap;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-o-border-radius:2px;
+	-ms-border-radius:2px;
+	padding:10px;
+	margin-bottom:30px;
+}
+
+.wrap-summary .summary {
+	margin:0;
+}
+
+.wrap-summary .summary li{
+	list-style-type: none;
+	border-top:1px #fff dotted;
+	border-bottom:1px #fff dotted;
+	height:30px;
+	line-height: 30px;
+	position: relative;
+	padding-right:20px;
+}
+
+.wrap-summary .summary li a{
+	color:#999;
+	text-decoration:none;
+}
+
+.wrap-summary .summary li .font-wp-summary-h2{
+	font-weight:bold;
+}
+
+.wrap-summary .summary li:hover span{
+	background-color: #7aad95;
+	height:100%;
+	width:20px;
+	display:block;
+	position:absolute;
+	right:0;
+	top:0;
+	transition: all ease 0.8s;
+	-webkit-transition: all ease 0.8s;
+	-o-transition: all ease 0.8s;
+	-ms-transition: all ease 0.8s;
+
+}
+
+.wrap-summary .summary li .font-wp-summary-h3{
+	padding-left:10px;
+}
+
+.wrap-summary .summary li .font-wp-summary-h4{
+	padding-left:20px;
+}
+
+.wrap-summary .summary li .font-wp-summary-h5{
+	padding-left:30px;
+}
+
+.wrap-summary .summary li .font-wp-summary-h6{
+	padding-left:40px;
+}
+
+.wrap-summary .current{
+	background-color:#7aad95;
+	transition: all ease 0.8s;
+	-webkit-transition: all ease 0.8s;
+	-o-transition: all ease 0.8s;
+	-ms-transition: all ease 0.8s;
+}
+
+.wrap-summary .summary .current a{
+	color: #fff;
+}
